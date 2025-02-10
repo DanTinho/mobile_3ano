@@ -45,7 +45,7 @@ while True:
     print_board()
     player_move('X')
     print_board()
-    if is_victory('X')
+    if is_victory('X'):
         print("Player 1 wins! Congratulations!")
         break
     elif ' ' not in board:
